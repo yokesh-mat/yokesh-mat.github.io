@@ -178,7 +178,7 @@ h2{
 }
 
 .sky{
-	margin-right: 12%;
+	margin-right: 20%;
 	float: right;
 	width: 335px;	
 	height: 335px;
@@ -188,7 +188,7 @@ h2{
 
 .skyy{
 	display:inline-block;
-	margin: 5% 10% 10% 10%;
+	margin: 5% 0% 10% 0%;
 
 }
 .man{
@@ -202,15 +202,16 @@ h2{
 }
 .camera-man{
 	float: right;
-	margin: 5% 5% 5% 0%;
-	width: 40%;
+	margin: 5% 10% 5% 0%;
+	width: 35%;
 	text-align: justify;
 	line-height: 31.74px;
 	font-family: Roboto;
 	
 }
 .nature{
-	width: 45%;
+	width: 35%;
+	margin: 0% 10% 10% 10%;
 	text-align: justify;
 	line-height: 31.74px;
 	font-family: Roboto;
