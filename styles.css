@@ -1,0 +1,274 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.top-menu{
+    background-color:#1C4492;
+    height:60px;
+    line-height: 54px;
+	width: 100%;
+    font-weight: 10;
+    color:#FFFFFF;
+	
+    
+}
+.top-menu .logo{
+    padding: 0px 10px 0px 51px;
+	font-size: 29px;
+
+	font-family: 'Recursive', sans-serif;
+	line-height: 60px;
+}
+.menu{
+	display: flex;
+	float: right;
+	font-size: 18px;
+	padding: 0px 53px 0px 0px;
+	font-family: 'Recursive', sans-serif;
+	line-height: 60px;
+
+}
+.menu-items{
+	padding-right: 68px;
+}
+
+.biotech{
+	height: 630px;
+width: 1182px;
+left: 129px;
+top: 100px;
+padding-top: 40px;
+padding-left: 129px;
+
+
+}
+h1{
+	text-align: center;
+	font-family: 'Recursive', sans-serif;
+	padding-top: 48px;
+	font-size: 52px;
+	font-weight: 600;
+	height: 61px;
+	width: 330px;
+	line-height: 60px;
+	color: #000000;
+	margin: auto;
+}
+.bio{
+	text-align: center;
+	font-family: 'Recursive', sans-serif;
+	padding-bottom: 100px;
+	padding-top: 18px;
+	width: 675px;
+	height: 72px;
+	line-height: 39.2px;
+	margin: auto;
+	color: #000000;
+
+}
+.image{
+	text-align: center;
+}
+.menu-items:last-child{
+	padding-right:0px;
+}
+.talent-menu{
+	background-color:#1C4492;
+    width: 100%;
+	height: 507px;
+	top: 1052px;
+    color:#FFFFFF;
+	
+}
+h2{
+	font-family: Roboto;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 63px;
+	padding-top: 14px;
+	
+
+}
+.dance{
+	height: 332px;
+width: 317px;
+padding: 88px 0px 0px 116px;
+display: inline-block;
+font-family: Roboto;
+
+}
+
+	.first{
+		width: 317px;
+		height: 226px;
+		display: inline;
+	
+	}
+	.second{
+		width: 317px;
+		height: 226px;
+	
+	}
+	.third{
+		width: 317px;
+		height: 226px;
+		
+	
+	}
+.camera{
+	height: 335px;
+	width: 536px;
+	padding-top: 96px;
+	padding-left: 145px;
+	
+}
+.sky{
+	height: 335px;
+	width: 335px;
+	padding-top: 131px;
+	padding-left: 108px;
+	padding-bottom: 77px;
+	
+	
+	
+
+}
+.description{
+	height: 188px;
+    width: 497px;
+	opacity: 0.6;
+	font-family: Roboto;
+
+}
+.camera-man{
+	float: right;
+	padding-top: 96px;
+	padding-right: 78px;
+	width: 518px;
+	height: 306px;
+	line-height: 31.74px;
+	display: inline-block;
+	font-family: Roboto;
+	
+}
+.nature{
+	float: left;
+	padding-top: 131px;
+	padding-left: 145px;
+	padding-right: 18px;
+	width: 518px;
+	height: 306px;
+	line-height: 31.74px;
+	display: inline-block;
+	font-family: Roboto;
+	
+}
+h3{
+	text-align: unset;
+	font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 63px;
+font-family: Roboto;
+
+
+}
+h4{
+	font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: 63px;
+font-family: Roboto;
+
+
+
+}
+.discription{
+	height: 188px;
+    width: 497px;
+	opacity: 0.6;
+	font-family: Roboto;
+
+
+}
+.end{
+	height: 80px;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+	background: #000000;
+	font-family: Roboto;
+	line-height: 80px;
+	
+}
+p{
+	color: rgba(255, 255, 255, 0.7);
+}
+.button {
+	background-color: #06e2ff;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 17px;
+	cursor: pointer;
+	width: 150px;
+	height: 40px;
+	font-family: Roboto;
+	
+	
+  }
+  .twitter{
+	  padding: 45px 0px;
+	  font-family: Roboto;
+  }
