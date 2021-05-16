@@ -48,82 +48,89 @@ table {
 	border-spacing: 0;
 }
 
+
+
+* {
+	box-sizing: border-box;
+  }
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
 .top-menu{
     background-color:#1C4492;
-    height:60px;
     line-height: 54px;
 	width: 100%;
     font-weight: 10;
     color:#FFFFFF;
-	
-    
+	display: inline-block;  
 }
-.top-menu .logo{
-    padding: 0px 10px 0px 51px;
-	font-size: 29px;
 
+ .logo{
+    
+	font-size: 29px;
+	margin: 0px 10px 0px 51px;
 	font-family: 'Recursive', sans-serif;
 	line-height: 60px;
+	display: inline-block;
 }
 .menu{
-	display: flex;
+	
 	float: right;
 	font-size: 18px;
-	padding: 0px 53px 0px 0px;
+	margin-right: 53px;
 	font-family: 'Recursive', sans-serif;
 	line-height: 60px;
-
+	
 }
 .menu-items{
-	padding-right: 68px;
+	margin-left: 68px;
+	display: inline-block;
 }
 
-.biotech{
-	height: 630px;
-width: 1182px;
-left: 129px;
-top: 100px;
-padding-top: 40px;
-padding-left: 129px;
-
-
+.biotech {
+    height: auto;
+    width: 80%;
+    display: inline-block;
+    margin-top: 40px;
+    border-radius: 20px 20px 0px 20px;
 }
+
+
 h1{
 	text-align: center;
-	font-family: 'Recursive', sans-serif;
-	padding-top: 48px;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 600;
 	font-size: 52px;
-	font-weight: 600;
-	height: 61px;
-	width: 330px;
-	line-height: 60px;
-	color: #000000;
-	margin: auto;
+    line-height: 60px;
+    color: #000000;
+	margin: 0px auto;
 }
 .bio{
 	text-align: center;
-	font-family: 'Recursive', sans-serif;
-	padding-bottom: 100px;
-	padding-top: 18px;
-	width: 675px;
-	height: 72px;
-	line-height: 39.2px;
-	margin: auto;
-	color: #000000;
-
-}
-.image{
-	text-align: center;
-}
-.menu-items:last-child{
-	padding-right:0px;
-}
-.talent-menu{
-	background-color:#1C4492;
+    font-family: 'Recursive', sans-serif;
+    padding: 5% 9% 0% 9% ;
+	font-size: 21px;
     width: 100%;
-	height: 507px;
-	top: 1052px;
-    color:#FFFFFF;
+    line-height: 39.2px;
+    color: #000000;
+	margin: 0px auto;
+}
+.main{
+	margin: 10% 10% 10% 10%;
+}
+.image {
+    text-align: center;
+}
+
+.talent-menu{
+    background-color: #1C4492;
+    width: 100%;
+    height: auto;
+	text-align: center;
+    color: #FFFFFF;
 	
 }
 h2{
@@ -131,87 +138,85 @@ h2{
 	font-size: 34px;
 	font-style: normal;
 	font-weight: 500;
+	width: 60%;
+	margin: 28px 20%;
 	line-height: 63px;
-	padding-top: 14px;
+	text-align: left;
 	
 
 }
 .dance{
-	height: 332px;
-width: 317px;
-padding: 88px 0px 0px 116px;
-display: inline-block;
-font-family: Roboto;
-
+    height: auto;
+	width: 33%;
+    margin: 88px 0px;
+    display: inline-block;
+    font-family: Roboto;
 }
-
-	.first{
-		width: 317px;
-		height: 226px;
-		display: inline;
 	
+	.first{
+		width: 60%;
+		margin-left: 20%;
+
+		
 	}
 	.second{
-		width: 317px;
-		height: 226px;
+		width: 60%;
+		margin-left: 0px auto;
 	
 	}
 	.third{
-		width: 317px;
-		height: 226px;
+		width: 60%;
+		margin-right: 20%;
 		
 	
 	}
 .camera{
-	height: 335px;
-	width: 536px;
-	padding-top: 96px;
-	padding-left: 145px;
+	height:auto;
+	margin: 5% 5% 5% 10%;
+	width: 35%;
 	
 }
+
 .sky{
+	margin-right: 12%;
+	float: right;
+	width: 335px;	
 	height: 335px;
-	width: 335px;
-	padding-top: 131px;
-	padding-left: 108px;
-	padding-bottom: 77px;
-	
-	
-	
+	border-radius: 50%;
+	border: 2px solid blue;
+}
+
+.skyy{
+	display:inline-block;
+	margin: 5% 10% 10% 10%;
 
 }
+.man{
+	display: inline-block;
+}
 .description{
-	height: 188px;
-    width: 497px;
+
 	opacity: 0.6;
 	font-family: Roboto;
 
 }
 .camera-man{
 	float: right;
-	padding-top: 96px;
-	padding-right: 78px;
-	width: 518px;
-	height: 306px;
+	margin: 5% 5% 5% 0%;
+	width: 40%;
+	text-align: justify;
 	line-height: 31.74px;
-	display: inline-block;
 	font-family: Roboto;
 	
 }
 .nature{
-	float: left;
-	padding-top: 131px;
-	padding-left: 145px;
-	padding-right: 18px;
-	width: 518px;
-	height: 306px;
+	width: 45%;
+	text-align: justify;
 	line-height: 31.74px;
-	display: inline-block;
 	font-family: Roboto;
 	
 }
 h3{
-	text-align: unset;
 	font-family: Roboto;
 font-size: 34px;
 font-style: normal;
@@ -233,8 +238,7 @@ font-family: Roboto;
 
 }
 .discription{
-	height: 188px;
-    width: 497px;
+
 	opacity: 0.6;
 	font-family: Roboto;
 
@@ -248,14 +252,14 @@ font-family: Roboto;
 	background: #000000;
 	font-family: Roboto;
 	line-height: 80px;
+	display: block;
 	
 }
-p{
-	color: rgba(255, 255, 255, 0.7);
-}
+
 .button {
 	background-color: #06e2ff;
-	border: none;
+	border-radius: 5px;
+	border-color: rgba(255, 255, 255, 0);
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -265,10 +269,270 @@ p{
 	width: 150px;
 	height: 40px;
 	font-family: Roboto;
-	
-	
   }
+	
+	
+  
   .twitter{
-	  padding: 45px 0px;
+	margin: 45px 0px 0px 0px;
+	  width: 30%;
 	  font-family: Roboto;
+	  text-decoration: none;
+	  color: white;
+
   }
+  .twitter-button{
+	  text-decoration: none;
+	  color: white;
+	  font-family: Roboto;
+
+  }
+  p {
+	  text-align: left;
+	 opacity: 0.6;
+	 width: 70%;
+	 margin:10px 20%
+ }
+.image-title-1{
+	margin-left:30% ;
+}
+.image-title-3{
+	margin-left:12% ;
+}
+.image-discription-3{
+	margin-left: 12%;
+}
+
+
+ /*media query*/
+
+ @media only screen and (max-width: 1200px){
+	.menu{
+		float: right;
+		text-align: end;
+		width: 50%;
+	}
+	.menu-items{
+		margin-right: 9%;
+	}
+	.logo{
+		margin: 0px 10px 0px 51px;
+	}
+	.dance{
+		width: 33%;
+	}
+	.camera{
+		width: 38%;
+		margin-top: 96px;
+		margin-left: 80px;
+	}
+	.camera-man{
+		width: 38%;
+		margin: 9% 5% 0% 9%;
+		float: right;
+	    margin: 9% 5% 0% 9%;
+	}
+	.nature{
+		width:38%;
+		margin-left: 80px;
+		margin-right: 18px;
+		float: left;
+	}
+	.sky{
+	width: 325px;
+    float: right;
+	}
+	.discription{
+		height: 188px;
+		width: 497px;
+	}
+	h1{
+		font-size:300%;
+		width: 100%;
+
+	}
+	.description{
+		height: 188px;
+		width: 497px;
+	}
+
+}
+
+/*
+@media only screen and (min-width: 460px){
+	.menu{
+		float: right;
+		text-align: end;
+		width: 50%;
+	}
+	.menu-items{
+		margin-right: 9%;
+	}
+	.logo{
+		margin: 0px 10px 0px 51px;
+	}
+	.dance{
+		width: 33%;
+	}
+	.camera{
+		width: 38%;
+		margin-top: 96px;
+		margin-left: 80px;
+	}
+	.camera-man{
+		width: 38%;
+		float: right;
+	    margin: 9% 5% 0% 9%;
+	}
+	.nature{
+		width:38%;
+		margin-left: 80px;
+		margin-right: 18px;
+		float: left;
+	}
+	.sky{
+	width: 25%;
+    float: right;
+	margin: 10% 20% 10% 0%;
+	}
+	.discription{
+		height: 188px;
+		width: 497px;
+	}
+	h1{
+		font-size: 300%;
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	.description{
+		height: 188px;
+		width: 497px;
+	}
+
+} */
+
+
+@media (max-width: 1024px){
+	.menu{
+		float: right;
+		text-align: end;
+		width: 50%;
+	}
+	.menu-items{
+		margin-right: 9%;
+	}
+	.logo{
+		margin: 0px 10px 0px 51px;
+	}
+	.dance{
+		width: 33%;
+	}
+	.camera{
+		width: 38%;
+		margin-top: 96px;
+		margin-left: 80px;
+	}
+	.camera-man{
+		width: 38%;
+		float: right;
+	    margin: 9% 5% 0% 9%;
+	}
+	.nature{
+		width:38%;
+		margin-left: 80px;
+		margin-right: 18px;
+		float: left;
+	}
+	.sky{
+    float: right;
+	margin: 10% 20% 10% 0%;
+	}
+	.discription{
+		height: 188px;
+		width: 497px;
+	}
+	h1{
+		font-size: 300%;
+		width: 100%;
+	}
+	.description{
+		height: 188px;
+		width: 497px;
+	}
+}
+
+@media (max-width: 480px) {
+	.top-menu {
+	  display: inline-block;
+	}
+	h1{
+		font-size: 200%;
+		width: 100%;
+	
+	}
+	.dance{
+		width: 100%;
+	}
+	.image-title-3{
+		margin-left: auto;
+	}
+	.image-title-1{
+		margin-left: auto;
+	}
+	.image-discription-3{
+		margin-left: 21%;
+	}
+	.image-discription-1{
+		margin-right: auto;
+	}
+	.first{
+		margin-left: auto;
+	}
+	.third{
+		margin-right: auto;
+	}
+
+	.menu-items{
+		margin:0%;
+		width: 100%;
+		text-align: center;
+		
+	}
+	.menu{
+		margin: 0%;
+		width: 100%;
+		text-align: center;
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+	    margin: 0px auto;
+		
+	}
+	.camera{
+		display: block;
+		width: 80%;
+		margin: 10%;
+	}
+	.camera-man{
+		width: 80%;
+    margin: 10%;
+	}
+	.sky{
+	
+		display: block;
+		width: 80%;
+		margin: 10%;
+		text-align: center;
+
+	}
+	.nature{
+		display: block;
+		width: 80%;
+    margin: 10%;
+	}
+
+  }
+
+
