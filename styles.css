@@ -362,7 +362,7 @@ font-family: Roboto;
 		#menuToggle a
 		{
 		  text-decoration: none;
-		  color: #232323;
+		  color: #ffffff;
 	  
 		  transition: color 0.3s ease;
 		}
@@ -376,8 +376,8 @@ font-family: Roboto;
 		#menuToggle input
 		{
 		  display: block;
-		  width: 40px;
-		  height: 32px;
+		  width: 25px;
+		  height: 20px;
 		  position: absolute;
 		  top: -7px;
 		  left: -5px;
@@ -394,7 +394,7 @@ font-family: Roboto;
 		#menuToggle span
 		{
 		  display: block;
-		  width: 19px;
+		  width: 24px;
 		  height: 2px;
 		  margin-bottom: 4px;
 		  position: relative;
@@ -425,7 +425,7 @@ font-family: Roboto;
 		{
 		  opacity: 1;
 		  transform: rotate(45deg) translate(-2px, -1px);
-		  background: #232323;
+		  background: #ffffff;
 		}
 	
 	
@@ -444,12 +444,11 @@ font-family: Roboto;
 		#menu
 		{
 		  position: absolute;
-		  width: 330px;
-		  margin: -100px 0 0 -50px;
-		  padding: 50px;
-		  padding-top: 125px;
-	  
-		  background: #ededed;
+		  width: 101%;
+		  margin: -172px 0 0 -6%;
+		  padding: 66px;
+		  padding-top: 151px;
+		  background: #1c4492;
 		  list-style-type: none;
 		  -webkit-font-smoothing: antialiased;
 	  
