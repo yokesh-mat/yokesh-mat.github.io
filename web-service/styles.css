@@ -7,6 +7,8 @@ body{
 .title-menu{
     width: 100%;
     height: 48px;   
+    margin-top: 28px;
+   
 }
         .top-menu{
         float: right;
@@ -18,6 +20,7 @@ body{
             height: 48px;
             width: 48px;
             float: left;
+        
         }
         #about{
             display: inline-block;
@@ -32,4 +35,50 @@ body{
     .eye{
         width: 26px;
         height: 17px;
+    }
+    .landing-content{
+        display: inline-block;
+        height: 812px;
+        width: 100%;
+    }
+                        .landing-text{
+                            margin-top: 160px;
+                            display: inline-block;
+                        }
+                        .landing-image{
+                            
+                            float:right;
+                        }
+    .second-page{
+        height: 812px;
+        width: 100%;
+    }
+
+
+
+    .third-page{
+        height: 812px;
+        width: 100%;
+    }
+
+
+    .fourth-page{
+        height: 812px;
+        width: 100%;
+    }
+
+
+    .fifth-page{
+        height: 812px;
+        width: 100%;
+    }
+
+    .log-in-page{
+        height: 812px;
+        width: 100%;
+    }
+
+    .conclusion-page{
+        height: 812px;
+        width: 100%;
     }
