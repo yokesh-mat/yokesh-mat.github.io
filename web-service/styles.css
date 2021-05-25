@@ -36,11 +36,12 @@ body{
         }
         .menu-items{
             display: inline-block;
+            font-size: 14px;
         }
 
         #get-started{
             display: inline-block;
-            border-radius: 20px;
+            border-radius: 30px;
             border-bottom-style: solid;
             border-right-style: solid;
             border-color: orchid;
@@ -48,20 +49,17 @@ body{
             background-color: white;
             text-align: center;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 14px;
             cursor: pointer;
-            width: 150px;
-            height: 40px;
+            width: 138px;
+            height: 32px;
         }
-    .eye{
-        width: 26px;
-        height: 17px;
-    }
+  
     .start-free-trail{
-        border-radius: 20px;
+        border-radius: 30px;
         border-bottom-style: solid;
         border-right-style: solid;
-        border-color: orchid;
+        border-color: darkorchid;
         color: white;
         background-color: darkviolet;
         text-align: center;
@@ -69,12 +67,12 @@ body{
         display: inline-block;
         font-size: 14px;
         cursor: pointer;
-        width: 150px;
-        height: 40px;
+        width: 168px;
+        height: 48px;
 
     }
     .learn-more{
-        border-radius: 20px;
+        border-radius: 30px;
         border-bottom-style: solid;
         border-right-style: solid;
         border-color: white;
@@ -85,13 +83,14 @@ body{
         display: inline-block;
         font-size: 14px;
         cursor: pointer;
-        width: 150px;
-        height: 40px;
+        width: 168px;
+        height: 48px;
     }
     .landing-content-container{
         display: inline-block;
         height: 812px;
         width: 100%;
+        background-image: url(Path-1.png);
     }
             .landing-content{
                 width: 896px;
@@ -104,9 +103,38 @@ body{
                             display: inline-block;
                             width: 50%;
                         }
+                                .shiny{
+                                    border-radius: 30px;
+                                    color: darkviolet;
+                                    background-color: rgb(255, 241, 254);
+                                    text-align: center;
+                                    text-decoration: none;
+                                    font-size: 16px;
+                                    cursor: pointer;
+                                    width: 256px;
+                                    height: 40px;
+                                    
+                                }
+                                        .version{
+                                            margin: 0px auto;
+                                            line-height: 40px;
+                                        }
+                                h1{
+                                    width: 431px;
+                                    height: 128px;
+                                    line-height: 64px;
+                                    font-size: 48px;
+                                }
+                                .landing-discription{
+                                    width: 456px;
+                                    height: 72px;
+                                    line-height: 24px;
+                                    margin-bottom: 24px;
+                                }
                         .landing-image{
                             width: 48%;
                             float:right;
+                            margin-top: 119px;
                         }
     .second-page-container{
         height: 812px;
@@ -118,20 +146,39 @@ body{
             .second-page{
                 width: 896px;
                 height: 528px;
-                margin: 0px auto;
+                margin: 92px auto 0px auto;
                 
             }
-                        .qubly{
+                        .qubly-container{
                             margin: 42px auto;
                             text-align: center;
                             width: 144px;
                             height: 40px;
+                            border-radius: 30px;
+                            color: darkviolet;
+                            background-color: rgb(255, 241, 254);
+                            text-align: center;
+                            text-decoration: none;
+                            font-size: 16px;
+                            cursor: pointer;
+                        }
+                        .eye{
+                            width: 26px;
+                            height: 17px;
+                            margin-top: 8%;
+                            vertical-align: sub;
+                        }
+                        .qubly{
+                            display: inline-block;
+                            vertical-align: middle;
                         }
                         .insight{
                             margin: 0px auto;
                             text-align: center;
-                            width: 480px;
+                            width: 500px;
                             height: 88px;
+                            line-height: 42px;
+                            font-size: 36px;
                         }
                         .insight-discription{
                             margin: 16px auto 0px auto;
@@ -141,20 +188,24 @@ body{
                         }
                         .second-page-bottom{
                             display: inline-block;
+                            text-align: left;
+                            margin-top: 48px;
                         }
                                 .data{
                                     height: 232px;
-                                    width: 33%;
+                                    width: 232px;
                                     display: inline-block;
+                                    margin-right: 93px;
                                 }
                                 .algorithm{
                                     height: 232px;
-                                    width: 33%;
+                                    width: 232px;
                                     display: inline-block;
+                                    margin-right: 93px;
                                 }
                                 .business{
                                     height: 232px;
-                                    width: 33%;
+                                    width: 232px;
                                     display: inline-block;
                                 }
 
@@ -183,7 +234,35 @@ body{
                                    width: 638px;
                                    height: 435px;
                                    float: right;
+                                   padding-left: 100px;
                             }
+                                    .product-teams{
+                                        width: 224px;
+                                        height: 40px;
+                                        border-radius: 30px;
+                                        color: darkviolet;
+                                        background-color: rgb(255, 241, 254);
+                                        text-align: center;
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                    }
+                                    .circuit{
+                                        vertical-align: bottom;
+                                        margin-top: 3%;
+                                    }
+                                    .launch{
+                                        width: 400px;
+                                        height: 88px;
+                                        font-size: 28px;
+                                        line-height: 42px;
+                                        margin-top: 32px;
+                                    }
+                                    .lauch-discription{
+                                        width: 504px;
+                                        height: 72px;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                                    }
                         
 
 
@@ -199,8 +278,39 @@ body{
                 .fourth-page-left{
                     width: 435px;
                     height: 414px;
-                    display: inline-block;  
+                    display: inline-block;
+                    vertical-align: top;  
                 }
+                            .compass-container{
+                                         width: 258px;
+                                        height: 40px;
+                                        border-radius: 30px;
+                                        color: darkviolet;
+                                        background-color: rgb(255, 241, 254);
+                                        text-align: center;
+                                        text-decoration: none;
+                                        font-size: 16px;
+                                        line-height: 24px;
+                            }
+                                    .compasss{
+                                        margin-top: 2%;
+                                        height: 24px;
+                                        width: 24px;
+                                        
+                                    }
+                                    .data-driven{
+                                        width: 376px;
+                                        height: 88px;
+                                        margin-top: 32px;
+                                        font-size: 36px;
+                                        line-height: 42px;
+                                    }
+                                    .data-driven-discription{
+                                        width: 474px;
+                                        height: 72px;
+                                        line-height: 24px;
+                                        font-size: 16px;
+                                    }
                 .fourth-page-right{
                     width: 674px;
                     height: 414px;
@@ -208,25 +318,40 @@ body{
                 }
 
 
-    .fifth-page{
+    .fifth-page-container{
         height: 812px;
         width: 100%;
+        background-image: url(Path-606.png); 
+        background-repeat: no-repeat;
     }
+            .fifth-page{
+                width: 1330px;
+                height: 768px;
+                margin: 0px auto;
+                display: inline-block;
+               
+            }
+                    .fifth-page-content{
+                        margin-top: 200px;
+                    }
                                 .fifth-page-title{
                                     width: 664px;
                                     height: 56px;
                                     text-align: center;
+                                    line-height: 27px;
+                                    font-size: 21px;
                                     margin: 200px auto 16px auto;
                                 }
                                 .profile{
                                     width: 80px;
                                     height: 80px;
                                     text-align: center;
-                                    margin: 0px 600px 16px 600px;
+                                    margin: 0px 600px 16px 625px;
                                 }
                                 .profile-name{
-                                    width: 464px;
+                                    width: 200px;
                                     height: 48px;
+                                    line-height: 24px;
                                     text-align: center;
                                     margin: 0px auto 114px auto;
                                 }
@@ -249,20 +374,139 @@ body{
         height: 812px;
         width: 100%;
         text-align: center;
+        display: inline-block;
 
     }
             .log-in-page{
                 width: 1064px;
                 height: 568px;
-                margin: auto;
+                margin: 0px auto;
+               
             }
                                 .partners{
-                                    width: 600px;
+                                    width: 490px;
+                                    display: block;
+                                    float: left;
+                                     
                                 }
-                                .log-in-partner-icon{
+                                        .partner-reason{
+                                            width: 488px;
+                                            height: 188px;
+                                            font-size: 36px;
+                                        }
+                                .trust-container{
+                                    width: 424px;
+                                    height: 21px;
+                                    display: block;
+                                    margin-top: 30px;
+                                    display: inline-block;
+                                }
+                                .trust{
+                                    display: inline-block;
+                                }
+                               
+                                .trust-line{
+                                    height: 2px;
+                                    width: 165px;
+                                    display: inline-block;
+                                    vertical-align: super;
+                                   
+                                }
+                                .partner-icons{
+                                    margin-top: 42px;
+                                    margin-left: 36px;
+                                    width: 400px;
+                                    height: 156px;
+                                    display: block;
+                                }
+                                .log-in-partner-icon1{
+                                    display: inline-block;
+                                }
+                                .log-in-partner-icon2{
+                                    margin-left: 102px;
+                                    display: inline-block;
+                                }
+                                .log-in-partner-icon3{
+                                    margin-top: 67px;
+                                    display: inline-block;
+                                }
+                                .log-in-partner-icon4{
                                     margin-left: 102px;
                                     margin-top: 67px;
+                                    display: inline-block;
                                 }
+                                .sign-up{
+                                    width: 500px;
+                                    height: 550px;
+                                    border: 2px;
+                                    background-color: rgb(254, 247, 255);
+                                    display: inline-block;
+                                  
+                                }
+                                            input[type=text], select, textarea {
+                                                    width: 344px;
+                                                    padding: 12px;
+                                                    border: 1px solid #ccc;
+                                                    border-radius: 4px;
+                                                    box-sizing: border-box;
+                                                    margin-top: 6px;
+                                                    margin-bottom: 16px;
+                                                    resize: vertical;
+                                                }
+                                                
+                                            input[type=password], select, textarea {
+                                                width: 344px;
+                                                padding: 12px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 4px;
+                                                box-sizing: border-box;
+                                                margin-top: 6px;
+                                                margin-bottom: 16px;
+                                                resize: vertical;
+                                            }
+                                                input[type=submit] {
+                                                    background-color: #1f00ce;
+                                                    color: white;
+                                                    padding: 12px 20px;
+                                                    width: 344px;
+                                                    border: none;
+                                                    border-radius: 4px;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                input[type=submit]:hover {
+                                                    background-color: #6005d8;
+                                                }
+                                                
+                                                .container {
+                                                    border-radius: 5px;
+                                                    background-color: #ffffff;
+                                                    padding: 20px;
+                                                    width: 400px;
+                                                    margin: 0px auto;
+                                                }
+                                                #google{
+                                                    background-color: #0098f0;
+                                                    color: white;
+                                                    padding: 12px 20px;
+                                                    width: 344px;
+                                                    border: none;
+                                                    border-radius: 4px;
+                                                    cursor: pointer;
+                                                }
+                                                h4 {
+                                                    color: black;
+                                                }
+                                                h5{
+                                                    color: black;
+                                                    opacity: 0.5;
+                                                }
+                                                .sign-up-title{
+                                                    color: black;
+                                                    width: 100%;
+                                                    background-color: white;
+                                                    
+                                                }
                                
 
     .conclusion-page-container{
@@ -327,6 +571,24 @@ body{
                                     line-height: 30px;
                                     font-size: 12px;
                                     margin-top: 61px;
+                                    vertical-align: top;
+                                }
+                                .news-letter{
+                                    width: 96px;
+                                    height: 144px;
+                                    display: inline-block;
+                                    margin-left: 56px;
+                                    line-height: 30px;
+                                    font-size: 12px;
+                                    margin-top: 73px;
+                                    vertical-align: top;
+                                }
+                                #news{
+                                    width: 180px;
+                                    height: 40px;
+                                }
+                                .news-letter-container{
+                                    display: inline-block;
                                     vertical-align: top;
                                 }
 .footer{
