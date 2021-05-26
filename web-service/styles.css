@@ -90,10 +90,12 @@ body{
         height: 48px;
     }
     .landing-content-container{
-        display: inline-block;
+       
         height: 812px;
         width: 100%;
         background-image: url(Path-1.png);
+        max-width: 1440px;
+        margin: 0px auto;
     }
             .landing-content{
                 width: 896px;
@@ -140,10 +142,11 @@ body{
                             margin-top: 119px;
                         }
     .second-page-container{
-        height: 812px;
+        height: 700px;
         width: 100%;
         text-align: center;
-        display: inline-block;
+        max-width: 1440px;
+        margin: 0px auto;
        
     }
             .second-page{
@@ -218,6 +221,8 @@ body{
     .third-page-container{
         height: 600px;
         width: 100%;
+        max-width: 1440px;
+        margin: 0px auto;
     }
             .third-page{
                 width: 1016px;
@@ -270,8 +275,10 @@ body{
 
 
     .fourth-page-container{
-        height: 450px;
+        height: 550px;
         width: 100%;
+        max-width: 1440px;
+        margin: 0px auto;
     }
             .fourth-page{
                 width: 1116px;
@@ -319,6 +326,11 @@ body{
                     height: 414px;
                     display: inline-block;
                 }
+                .fourth-page-image{
+                    width: 100%;
+                    height: 100%;
+
+                }
 
 
     .fifth-page-container{
@@ -326,6 +338,8 @@ body{
         width: 100%;
         background-image: url(Path-606.png); 
         background-repeat: no-repeat;
+        max-width: 1440px;
+        margin: 0px auto;
     }
             .fifth-page{
                 width: 1330px;
@@ -374,16 +388,17 @@ body{
                                 }
 
     .log-in-page-container{
-        height: 812px;
+        height: 700px;
         width: 100%;
         text-align: center;
-        display: inline-block;
+        max-width: 1440px;
+        margin: 0px auto;
 
     }
             .log-in-page{
                 width: 1064px;
                 height: 568px;
-                margin: 0px auto;
+                margin: 92px auto 0px auto;
                
             }
                                 .partners{
@@ -408,7 +423,14 @@ body{
                                     display: inline-block;
                                 }
                                
-                                .trust-line{
+                                .trust-line-1{
+                                    height: 2px;
+                                    width: 165px;
+                                    display: inline-block;
+                                    vertical-align: super;
+                                   
+                                }
+                                .trust-line-2{
                                     height: 2px;
                                     width: 165px;
                                     display: inline-block;
@@ -442,7 +464,7 @@ body{
                                     width: 450px;
                                     height: 550px;
                                     border: 2px;
-                                    background-color: rgb(250, 250, 250);
+                                    background-color: rgb(247, 247, 247);
                                     display: inline-block;
                                     background-image: url(bg-w.jpg);
                                     background-repeat: no-repeat;
@@ -496,14 +518,11 @@ body{
                                                     width: 400px;
                                                     margin: 0px auto;
                                                 }
-                                                #google{
-                                                    background-color: #0098f0;
-                                                    color: white;
-                                                    padding: 12px 20px;
-                                                    width: 344px;
-                                                    border: none;
-                                                    border-radius: 4px;
+                                                .google{
                                                     cursor: pointer;
+                                                }
+                                                .google:hover{
+                                                    border: 1px solid blue;
                                                 }
                                                 h4 {
                                                     color: black;
@@ -523,8 +542,9 @@ body{
     .conclusion-page-container{
         height: 500px;
         width: 100%;
-        display: inline-block;
         background-image: url(bg.png);
+        max-width: 1440px;
+        margin: 0px auto;
         
     }
             .conclusion-page{
@@ -542,6 +562,7 @@ body{
                                     display: inline-block;
                                     font-size: 12px;
                                     margin-top: 81px;
+                                    margin-left: 30px;
                                     vertical-align: top;
                                 }
                                 .product{
@@ -602,6 +623,7 @@ body{
                                     margin-left: 55px;
                                     margin-top: 10px;
                                 }
+                                
                           
                                 .news-letter-container{
                                     display: inline-block;
@@ -620,10 +642,440 @@ body{
                                     height: 35px;
                                     background-color: white;
                                 }
-.footer{
-    display: block;
-    width: 100%;
-    height: 21px;
-    text-align: center;
-    background-image: url(bg.png);
-}
+                                .sender:hover{
+                                    border: 1px solid blueviolet;
+                                    cursor: pointer;
+                                        }
+        .footer{
+            display: block;
+            width: 100%;
+            height: 21px;
+            text-align: center;
+            background-image: url(bg.png);
+            max-width: 1440px;
+            margin: 0px auto;
+        }
+        @media only screen and (max-width: 480px){
+            .landing-content-container{
+                width: 100%;
+              
+                
+            }
+                                    .landing-content{
+                                        width: 100%;
+                                        
+                                      
+                                    }
+                                    .top-menu{
+                                        display: none;
+                                    }
+                                    .landing-text{
+                                        width: 100%;
+                                        display: block;
+                                        margin: auto;
+
+                                    }
+                                            .shiny{
+                                                width: 70%;
+                                                margin: 15%;
+                                            }
+                                            h1{
+                                                width: 95%;
+                                                margin: 2%;
+                                                text-align: center;
+                                            }
+                                            .landing-discription{
+                                                width: 95%;
+                                                text-align: center;
+                                                margin: 20% 2% 10% 2%;
+                                                
+                                            }
+                                            .start-free-trail{
+                                                width: 80%;
+                                                margin: 10%;
+                                            }
+                                            .learn-more{
+                                                width: 80%;
+                                                margin: 0% 10%;
+                                            }
+                                            
+                                    .landing-image{
+                                        width: 100%;
+                                         
+                                    }
+                                            .home-image{
+                                                width: 100%;
+                                            }
+            .second-page-container{
+                width: 100%;
+               
+                height: auto;
+            }
+                    .second-page{
+                        
+                        width: 100%;
+                       
+                        height: auto;
+                        }               
+                                        .qubly-container{
+                                            width: 50%;
+                                            margin:10% 25%;
+                                            display: inline-block;
+
+                                        }
+                                        .eye{
+                                            margin:6% 0% 0% 0%;
+                                        }
+                                        .insight{
+                                            width: 95%;
+                                            text-align: left;
+                                            margin: 10% 0% 10% 5%;
+                                        }
+                                        .insight-discription{
+                                            text-align: left;
+                                            width: 95%;
+                                            margin: 20% 0% 10% 5%;
+                                        }
+                                        .data{
+                                            text-align: left;
+                                            width: 95%;
+                                            margin: 0% 0% 0% 5%;
+                                        }
+                                        .algorithm{
+                                            text-align: left;
+                                            width: 95%;
+                                            margin: 0% 0% 0% 5%;
+                                        }
+                                        .business{
+                                            text-align: left;
+                                            width: 95%;
+                                            margin: 0% 0% 0% 5%;
+                                        }
+            .third-page-container{
+                width: 100%;
+               
+            }
+                    .third-page{
+                        width: 100%;
+                        
+                        
+                       
+                    }
+                                        .third-page-left{
+                                            
+                                                width: 100%;
+                                               
+                                                
+                                            
+                                        }
+                                                .icon-bundle{
+                                                    width: 94%;
+                                                    margin: 3%;
+                                                    height: auto;
+                                                }
+                                        .third-page-right{
+                                            
+                                            width: 100%;
+                                            display: block; 
+                                            padding-left: 0px ;
+                                        }
+                                        .launch-container{
+                                            width: 100%;
+                                            text-align: left;
+                                        }
+                                        .product-teams{
+                                            width: 50%;
+                                            margin: 10% auto;
+                                        }
+                                        .launch{
+                                            width: 90%;
+                                            margin: 5%;
+                                           
+                                        }
+                                        .lauch-discription{
+                                            width: 90%;
+                                            margin: 5%;
+                                           
+                                        }
+            .fourth-page-container{
+                width: 100%;
+               
+            }
+                    .fourth-page{
+                        width: 100%;
+                        height: auto;
+                      
+                    }
+                                            .fourth-page-left{
+                                                width: 100%; 
+                                            }
+                                                    .compass-container{
+                                                        width: 60%;
+                                                        margin: 0% 20%;
+                                                    }
+                                                    .data-driven{
+                                                        text-align: left;
+                                                        width: 95%;
+                                                        margin:15% 5%;
+                                                    }
+                                                    .data-driven-discription{
+                                                        text-align: left;
+                                                        width: 94%;
+                                                        margin:10% 2% 10% 4%;
+                                                    }
+                                            .fourth-page-right{
+                                                width: 100%;
+                                                float: right;
+                                                height: auto;
+                                                
+                                            }
+                                            .fourth-page-image{
+                                                width: 100%;
+                                               
+                                            }
+            .fifth-page-container{
+                width: 100%;
+                height: auto;
+                display: inline-block;
+               
+            }
+                    .fifth-page{
+                        width: 100%;
+                        
+                       
+                       
+                    }
+                        .fifth-page-content{
+                            width: 100%;
+                        }
+                                        .fifth-page-title{
+                                            width: 90%;
+                                            margin: 5%;
+                                        }
+                                        .profile{
+                                            width: 25%;
+                                            margin: 20% 36% 10% 36%;
+                                        }
+                                        .profile-name{
+                                            width: 60%;
+                                            margin: 5% 20% 10% 20%;
+                                        }
+                                        .icons-list{
+                                            width: 100%;
+                                            
+                                        }
+                                        .compass{
+                                            width: 30%;
+                                        
+                                            margin:2% 8%;
+                                        }
+                                        .compass:first-child{
+                                            margin-left: 30px;
+                                        }
+                                        .compass:last-child{
+                                            margin-left: 30%;
+                                        }
+            .log-in-page-container{
+                width: 100%;
+               
+            }
+                    .log-in-page{
+                        width: 100%;
+                       
+                    }
+                                                .partners{
+                                                    width: 100%;
+                                                    
+                                                }
+                                                .partner-reason{
+                                                    width: 96%;
+                                                    text-align: left;
+                                                    margin: 5% 0% 10% 4%;
+                                                }
+                                                .trust-container{
+                                                    width: 100%;
+                                                    margin-top: 10%;
+                                                    margin-bottom: 10%;
+                                                }
+                                                        .trust-line-1{
+                                                            width: 20%;
+                                                            margin-left: 1%;
+                                                            
+                                                        }
+                                                        .trust-line-2{
+                                                            width: 20%;
+                                                            margin-left: 2%;
+                                                        }
+                                                        .trust-line{
+                                                            width: 100%;
+                                                        }
+                                                .partner-icons{
+                                                    width: 100%;
+                                                    margin-left: 0% ;
+                                                    margin-bottom: 10%;
+                                                    display: inline-block;
+
+                                                }
+                                                        .log-in-partner-icon1{
+                                                            width: 30%;
+                                                        }
+                                                        .log-in-partner-icon2{
+                                                            width: 30%;
+                                                        }
+                                                        .log-in-partner-icon3{
+                                                            width: 30%;
+                                                        }
+                                                        .log-in-partner-icon4{
+                                                            width: 30%;
+                                                        }
+                                                       
+                                                .sign-up{
+                                                    width: 100%;
+                                                    margin-bottom: 10%;
+                                                    margin-top: 15%;
+                                                    float: right;
+                                                    
+                                                }
+                                                .container{
+                                                    width: 90%;
+                                                }
+                                                input[type=text], select, textarea {
+                                                    width: 80%;
+                                                    padding: 12px;
+                                                    border: 1px solid #ccc;
+                                                    border-radius: 4px;
+                                                    box-sizing: border-box;
+                                                    margin-top: 6px;
+                                                    margin-bottom: 16px;
+                                                    resize: vertical;
+                                                }
+                                                
+                                            input[type=password], select, textarea {
+                                                width: 80%;
+                                                padding: 12px;
+                                                border: 1px solid #ccc;
+                                                border-radius: 4px;
+                                                box-sizing: border-box;
+                                                margin-top: 6px;
+                                                margin-bottom: 16px;
+                                                resize: vertical;
+                                            }
+                                                input[type=submit] {
+                                                    background-color: #1f00ce;
+                                                    color: white;
+                                                    padding: 12px 20px;
+                                                    width: 60%;
+                                                    border: none;
+                                                    border-radius: 4px;
+                                                    cursor: pointer;
+                                                }
+                                                
+            .conclusion-page-container{
+                width: 100%;
+                display: block ;
+                height: auto;
+               
+            }
+                    .conclusion-page{
+                        width: 100%;
+                        
+                        
+                    }
+                                                    .conclusion-left{
+                                                        width: 100%;
+                                                        margin: 0% auto;
+                                                        text-align: center;
+                                                    }
+                                                        .conclusion-logo{
+                                                            width: 15%;
+                                                            margin: 0% auto;
+                                                        }
+                                                        .conclusion-discription{
+                                                            width: 90%;
+                                                            margin: 5%;
+                                                        }
+                                                        .partner-icon{
+                                                            width: 5%;
+                                                            
+
+                                                        }
+                                                        .partner-icon-1{
+                                                            width: 5%;
+                                                            margin-left: 5%;
+                                                        }
+                                                    .product{
+                                                        width: 100%;
+                                                        text-align: center;
+                                                        margin:10% 0%;
+                                                    }
+                                                        .conclusion-product{
+                                                            width: 100%;
+                                                        }
+                                                        .conclusion-product-items{
+                                                            width: 100%;
+                                                        }
+                                                    .conclusion-developer{
+                                                        width: 100%;
+                                                    }
+                                                    .conclusion-developer-items{
+                                                        width: 100%;
+                                                    }
+                                                    .developer{
+                                                        width: 100%;
+                                                        margin: 10% 0%;
+                                                        text-align: center;
+                                                    }
+                                                    .company{
+                                                        width: 100%;
+                                                        margin:10% 0%;
+                                                        text-align: center;
+                                                    }
+                                                        .conclusion-company{
+                                                            width: 100%;
+                                                            margin: 0%;
+                                                        }
+                                                        .conclusion-comapny-items{
+                                                            width: 100%;
+                                                        }
+                                                    .support{
+                                                        width: 100%;
+                                                        margin: 10% 0%;
+                                                        text-align: center;
+                                                        display: block;
+                                                    }
+                                                        .conclusion-support{
+                                                            width: 100%;
+                                                        }
+                                                        .conclusion-support-items{
+                                                            width: 100%;
+                                                            margin: 0%;
+                                                        }
+                                                    .news-letter{
+                                                        width: 100%;
+                                                        margin: 5% 10%;
+                                                        text-align: center;
+                                                    }
+                                                    .news-letter-container{
+                                                        width: 100%;
+                                                        margin: 10% -10%;
+                                                        text-align: center;
+                                                       
+                                                    }
+                                                    .letter{
+                                                        width: 100%;
+                                                        margin: 0%;
+                                                    }
+                                                    .sender{
+                                                        margin-bottom: -4%;
+                                                    }
+            .footer{
+                width: 100%;
+                display: block;
+            }
+        }
+
+
+
+
+          
+        
