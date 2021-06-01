@@ -10816,5 +10816,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#arrow{
+  width: 60px;
+height: 60px;
+}
+#dot{
+  width: 135px;
+height: 15px;
+}
+.client{
+  width: 50px;
+  height: 50px;
+}
+footer{
+  background-color: lightgray;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
