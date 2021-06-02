@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width,  user-scalable=no ,initial-scale=1.0">
         <link rel="stylesheet" href="styles.css?1">
         <meta name="theme-color" content="blue">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
     </head>
     <body>
         <section class="it-container-home">
@@ -28,8 +30,87 @@
             </div>
         </section>
         <section class="it-trekking">
-            <img class="it-trekking-image" src="images/second.png" alt="snow">
+            <div class="it-corosal">
+            <div class="it-corosal-content">
+                <img src="images/1.png" alt="image"><img class="history" src="images/history.png" alt="image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.  </p>
+            </div>
+           
+            </div>
+            <div class="it-corosal-bg">
+                
+            </div>
+            <div class="it-climb">
+                <div class="climb">
+                <img src="images/2.png" alt="image"><img class="history" src="images/climb.png" alt="image"></div>
+                <div class="it-climb-discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.  </div>
+            </div>
         </section>
+        <section class="tabs">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')">MOUNTAIN 1</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">MOUNTAIN 2</button>
+                
+              </div>
+              
+              <div id="London" class="tabcontent">
+                <div class="schedule-1">
+                    <pre>
+    <strong class="strong">SCHEDULE </strong>  
+
+    25 Nov 2016		Vestibulum viverra  
+    28 Nov 2016		Vestibulum viverra  
         
+    18 Dec 2016		Vestibulum viverra  
+        
+    7 Jan 2017		Vestibulum viverra  
+                    </pre>               
+              
+            </div>
+              </div>
+              
+              <div id="Paris" class="tabcontent">
+                
+                <div class="schedule-1">
+                    <pre>
+    <strong class="strong">SCHEDULE </strong>   
+
+    17 Nov 2016		Vestibulum viverra  
+    13 Nov 2016		Vestibulum viverra  
+        
+    28 Dec 2016		Vestibulum viverra  
+        
+    9 Feb 2017		Vestibulum viverra  
+                    </pre>               
+              
+            </div> 
+              </div>
+              
+             
+              
+         
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo"><img class="logo-home-bottom" src="images/logo.png"><img src="images/los.png" alt="brand name"></div>
+                <p class="footer-copy">COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
+            </div>
+        </footer>
+        <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
 
     </body>
+    </html>
