@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.it-home-content{
+    max-width: 1400px;
+    background-image: url("images/front.png" );
+    width: 100%;
+    height: 800px;
+    
+    background-repeat: no-repeat;
+}
+header{
+    width: 60%;
+    padding: 1% 20%;
+    
+}
+.it-home-link{
+    float: right;
+    vertical-align: bottom;
+}
+a{
+    padding: 18px;
+    line-height: 40px;
+    color: white;
+}
+
+.it-trekking{
+    max-width: 1400px;
+}
+.it-trekking-image{
+    max-width: 1400px;
+    width: 100%;
+}
+.it-home-bottom{
+    margin: 10px auto;
+    width: 60%;
+    padding: 0% 20%;
+}
+.it-home-bottom-link{
+    color: black;
+   
+    
+}
+.it-home-bottom-links{
+float: right;
+}
+.logo-home-bottom{
+    padding-right: 1%;
+}
