@@ -1,15 +1,18 @@
 body{
-    padding: 0px auto;
+    padding: 0px ;
     margin: 0px auto;
     font-family: 'Oswald', sans-serif;
 }
 .it-home-content{
     max-width: 1400px;
     background-image: url("images/front.png" );
+    background-position-x: center;
     width: 100%;
     height: 800px;
+    background-repeat:no-repeat;
+ 
+    background-position:center;
     
-    background-repeat: no-repeat;
 }
 header{
     width: 60%;
@@ -28,6 +31,7 @@ a{
 
 .it-trekking{
     max-width: 1400px;
+    margin: auto;
 }
 .it-trekking-image{
     max-width: 1400px;
@@ -77,19 +81,26 @@ float: right;
 }
 .climb{
     display: inline-block;
-    width: 35%;
+    width: 40%;
+    margin: auto;
 }
 .it-climb-discription{
     
     float: right;
-    width: 65%;
+    width: 60%;
     padding-top: 15px;
+    margin: auto;
 }
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    max-width: 1400px;
+    margin: auto;
+    background-color: #4b586d;
+  }
+  .tablinks-1{
+      margin-left: 20%;
+      border-right: 1px solid black;
   }
   
   /* Style the buttons inside the tab */
@@ -110,16 +121,21 @@ float: right;
   }
   
   /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
+  .tab button:active {
+    background-color: rgb(255, 246, 246);
+  }
+  .tab button:visited{
+      text-decoration: underline;
   }
   
   /* Style the tab content */
   .tabcontent {
     display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
+    padding: 6px 0px;
+   
     border-top: none;
+    max-width: 1400px;
+    margin: auto;
   }
   #London{
       background-image: url("images/coro-1.png");
@@ -145,6 +161,8 @@ float: right;
 footer{
     background-color: rgb(0, 23, 90);
     height: auto;
+    max-width: 1400px;
+    margin: auto;
     
 }
 .footer-content{
@@ -164,4 +182,180 @@ footer{
 .footer-copy{
     float: right;
     opacity: 0.5;
+}
+
+
+
+
+
+.contain {
+  width: 100%;
+}
+.row {
+  
+  width: 100%;
+  padding: 2% 0;
+}
+.row__inner {
+    transition: 450ms transform;
+    font-size: 0;
+    white-space: nowrap;
+    margin: 0% 13%;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.tile {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 140.625px;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 450ms all;
+  transform-origin: center left;
+}
+.tile__img {
+  width: 250px;
+  height: 140.625px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+
+
+
+.tile__title {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+.row__inner:hover {
+  transform: translate3d(-62.5px, 0, 0);
+}
+.row__inner:hover .tile {
+  opacity: 0.3;
+}
+.row__inner:hover .tile:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+.tile:hover ~ .tile {
+  transform: translate3d(125px, 0, 0);
+}
+.it-container-home{
+    max-width: 1400px;
+    margin: auto;
+}
+@media screen and (max-width:769px) {
+    .it-climb-discription , .climb{
+        float: none;
+        width: 100%;
+    }
+    .schedule-1{
+        margin: 2% auto;
+    }
+    .it-home-bottom{
+        margin: 5% auto;
+    }
+    footer{
+        display: flex;
+    }
+}
+@media screen and (max-width:600px){
+    .it-home-bottom-links{
+      float: none;
+    }
+    .it-home-content{
+        max-width: 1400px;
+        background-image: url("images/front-mob.png" );
+        background-position-x: center;
+        background-size: cover;
+    }
+    .tile__img {
+        width: 100%;
+        margin: 35% 0% !important;
+        height: auto;
+        -o-object-fit: cover;
+           object-fit: cover;
+           display: flex;
+           overflow: auto;
+      }
+      
+}
+@media screen and (max-width:1024px){
+    .it-climb-discription , .climb{
+        float: none;
+       width: 100%;
+    }
+    
+
+
+.contain {
+    width: 100%;
+  }
+  .row {
+    
+    width: 100%;
+    padding: 2% 0;
+  }
+  .row__inner {
+      transition: 450ms transform;
+      font-size: 0;
+      white-space: nowrap;
+      margin: 0% 13%;
+      padding-bottom: 10px;
+     
+  }
+  .tile {
+    position: relative;
+    display: inline-block;
+    width: 32%;
+    height: 140.625px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    mask-image: inherit;
+    
+  }
+  .tile__img {
+    width: 100%;
+    margin: 15% 0%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+       display: flex;
+       overflow: auto;
+  }
+  
+  
+  
+  
+  .tile__title {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+  }
+  .row__inner:hover {
+    transform: translate3d(2.5px, 0, 0);
+  }
+  .row__inner:hover .tile {
+    opacity: 0.3;
+  }
+  .row__inner:hover .tile:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  .tile:hover ~ .tile {
+    transform: translate3d(20%, 0, 0);
+  }
+  .it-corosal-bg {
+    background-image: url(images/bg.png);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    max-width: 1400px;
+}
 }
