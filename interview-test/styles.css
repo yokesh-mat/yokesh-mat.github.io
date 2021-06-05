@@ -4,7 +4,7 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 .it-home-content{
-    max-width: 1400px;
+    max-width: 1600px;
     background-image: url("images/front.png" );
     background-position-x: center;
     width: 100%;
@@ -30,11 +30,11 @@ a{
 }
 
 .it-trekking{
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
 }
 .it-trekking-image{
-    max-width: 1400px;
+    max-width: 1600px;
     width: 100%;
 }
 .it-home-bottom{
@@ -56,7 +56,7 @@ float: right;
 .it-corosal{
     width: 100%;
     background-image: url("images/second.png");
-    max-width: 1400px;
+    max-width: 1600px;
     height: 600px;
 }
 .it-corosal-content{
@@ -72,7 +72,7 @@ float: right;
     height: 200px;
     width: 100%;
     background-repeat: no-repeat;
-    max-width: 1400px;
+    max-width: 1600px;
     
 }
 .it-climb{
@@ -94,7 +94,7 @@ float: right;
 /* Style the tab */
 .tab {
     overflow: hidden;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
     background-color: #4b586d;
   }
@@ -134,7 +134,7 @@ float: right;
     padding: 6px 0px;
    
     border-top: none;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
   }
   #London{
@@ -161,7 +161,7 @@ float: right;
 footer{
     background-color: rgb(0, 23, 90);
     height: auto;
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
     
 }
@@ -244,7 +244,7 @@ footer{
   transform: translate3d(125px, 0, 0);
 }
 .it-container-home{
-    max-width: 1400px;
+    max-width: 1600px;
     margin: auto;
 }
 @media screen and (max-width:769px) {
@@ -267,7 +267,7 @@ footer{
       float: none;
     }
     .it-home-content{
-        max-width: 1401px;
+        max-width: 1600px;
         background-image: url("images/front-mob.png" );
         background-position-x: center;
         background-size: cover;
@@ -356,6 +356,6 @@ footer{
     height: auto;
     width: 100%;
     background-repeat: no-repeat;
-    max-width: 1400px;
+    max-width: 1600px;
 }
 }
