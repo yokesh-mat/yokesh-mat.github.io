@@ -1,0 +1,514 @@
+/* css reset */
+html {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* body */
+body{
+    border-top: 3px solid #7710AF;
+    background-color: #F0EEF9;
+}
+
+.app-wrapper{
+    margin-bottom: 100px;
+}
+
+.pp-app-container{
+    max-width: 1040px;
+    margin: auto;
+    clear: both;
+}
+
+.pp-app-top-bar{
+    padding-top: 20px;
+    max-width: 90%;
+    margin: auto;
+    height: 50px;
+}
+
+.pp-app-logo{
+    height: 28px;
+}
+
+.pp-app-logo-icon{
+    width: 30px;
+    display: none;
+}
+
+.pp-app-top-bar .pp-logo{
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-app-logo{
+        display: none;
+    }
+    
+    .pp-app-logo-icon{
+        display: block;
+    }
+}
+
+
+.pp-app-menu{
+    text-align: right;
+    height: 20px;
+}
+
+.pp-app-menu img{
+    width: 24px;
+}
+
+.pp-app-menu-option{
+    float: right;
+}
+
+/* toggle switch */
+.pp-switch{
+    float: left;
+    margin-right: 25px;
+}
+
+.pp-app-toggle-text{
+    float: left;
+    margin-right: 10px;
+}
+
+
+  /* switch css */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #7710AF;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+/* drop down */
+.pp-app-dropbtn {
+    border: none;
+    cursor: pointer;
+    padding: 0 6px;
+    height: 28px;
+}
+  
+.pp-app-dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.pp-app-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7710AF;
+    border-radius: 8px;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(126, 126, 126, 0.2);
+    right: 0;
+    z-index: 1;
+}
+  
+.pp-app-dropdown-content a {
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.pp-app-dropdown a:hover {
+    background-color: #422d4d;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.pp-app-show {display: block;}
+
+
+/* app welcome greetings */
+.pp-app-greet{
+    margin-top: 40px;
+}
+
+.pp-app-greet-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 2px;
+    color: #422D4D;
+}
+
+.pp-app-greet-text{
+    font-size: 14px;
+}
+
+.pp-app-content{
+    margin-top: 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+.pp-app-card-container{
+    margin-right: 16px;
+}
+
+.pp-app-content-row{
+    clear: both;
+}
+
+.pp-app-card{
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px #7710af14;
+    padding: 18px 22px;
+    margin-bottom: 16px;    
+    margin-right: 1.5%;
+    width: 23.8%;
+    float: left;
+}
+
+.pp-app-card:nth-child(4){
+    margin-right: 0px;
+}
+
+.pp-app-card-element a img{
+    width: 26px;
+    margin-bottom: -6px;
+    margin-left: 5px;
+}
+
+.pp-app-card-element-title{
+    font-size: 17px;
+    font-weight: bold;
+    color: #422D4D;
+    padding-bottom: 0px;
+    display: inline;
+}
+
+.pp-app-card-element-child {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.pp-app-card-element-child a{
+    color: #422D4D;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.pp-app-card-element-child a:hover{
+    text-decoration: underline;
+    color: #303dd3;
+    transition: all 0.2s;
+}
+
+.pp-app-card-element-child a img{
+    width: 20px;
+    margin-bottom: -4px;
+}
+
+.pp-app-add-link a{
+    font-size: 12px;
+    color: #7710AF;
+    border-radius: 4px;
+    border: 0.2px dashed #7710AF;
+    padding: 4px 12px;
+}
+
+.pp-app-add-link a:hover{
+    text-decoration: none;
+    background-color: #7710AF;
+    color: #ffffff;
+    border: 0.2px solid #7710AF;
+    transition: all 0.4s;
+}
+
+.pp-app-card-menu{
+    float: right;
+    padding: 0px;
+}
+
+.pp-app-card-menu .pp-app-dropbtn{
+    padding: 0px;
+}
+
+.pp-app-card .pp-app-card-menu .pp-app-dropdown-content a{
+    background-color: #422D4D;
+    color: #ffffff;
+}
+
+.pp-app-card .pp-app-card-menu .pp-app-dropdown-content a:hover{
+    background-color: #7710AF;
+    color: #ffffff;
+}
+
+.pp-app-card-add{
+    box-shadow: none;
+    background-color: #ffffff00;
+    border: 0.2px dashed #7710AF;
+    padding: 20px 25px;
+}
+
+.pp-app-add-group{
+    text-align: center;
+}
+
+.pp-app-add-group a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #7710AF;
+    border-radius: 4px;
+    padding: 4px 12px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .pp-app-container{
+        max-width: 540px;
+    }
+    .pp-app-card{
+        margin-bottom: 16px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .pp-app-container{
+        max-width: 400px;
+    }
+    .pp-app-card{
+        margin-bottom: 16px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .pp-app-container{
+        width: 88%;
+        margin: 0 6%;
+    }
+}
+
+
+.pp-app-fab{
+    background-color: #ffffff;
+	border-radius: 40px 40px 10px 40px;
+    border: 2px solid #7710AF;
+    padding: 10px 25px;
+	text-align:center;
+	color: #7710AF;
+	font-size: 14px;
+	display: inline-block;
+	cursor: default;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    box-shadow: 0px 2px 8px #7710af24;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.pp-app-fab:hover{
+    background-color: #7710AF;
+    color: #ffffff;
+}
+
+/* modal - get help */
+.modal-window {
+    position: fixed;
+    background-color: rgba(188, 188, 188, 0.75);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .modal-window:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .modal-window>div {
+    width: 400px;
+    position: relative;
+    margin: 6% auto;
+    padding: 2rem;
+    background: #fff;
+    color: #444;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px #7710af24;
+  }
+  
+  .modal-window header {
+    font-weight: bold;
+  }
+  
+  .modal-close {
+    color: #aaa;
+    border-radius: 30px;
+    border: 0.2px solid #fff;
+    font-size: 12px;
+    padding: 6px 10px;
+    margin: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+  
+  .modal-close:hover {
+    color: #422D4D;
+    border: 0.2px solid #aaa;
+  }
+
+  @media only screen and (max-width: 600px){
+    .modal-window>div{
+        width: 90%;
+        margin: 10% auto;
+    }
+  }
+
+
+
+.pp-app-form-field{
+    margin-top: 4px;
+    width: 100%;
+    border-radius: 4px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #422D4D;
+    border: 0.2px solid #422d4d5d;
+    padding: 15px;
+    transition-duration: 0.4s;
+}
+
+.pp-app-form-field:focus{
+    border: 0.2px solid #7710AF;
+}
+
+.pp-login-fields textarea:focus{
+    outline: none !important;
+    border: 0.2px solid #7710AF;
+    box-shadow: 0 0 8px #7710af2d;
+}
+
+
+
+.pp-app-modal-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #422D4D;
+    margin-bottom: 4px;
+}
+
+.pp-app-modal-text{
+    font-size: 16px;
+    color: #422D4D;
+    margin-bottom: 12px;
+}
+
+.pp-app-footer{
+    clear: both;
+    margin: 80px 40px 60px 40px;
+    text-align: center;
+}
+
+.pp-app-footer-text{
+    text-align: center;
+    font-size: 14px;
+}
+
+.pp-app-footer-twitter img{
+    width: 32px;
+    margin: 10px auto;
+}
+

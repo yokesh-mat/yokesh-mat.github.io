@@ -1,0 +1,542 @@
+/* css reset */
+html {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* body */
+body{
+    border-top: 4px solid #7710AF;
+    background-color: #F0EEF9;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+
+
+/* top bar */
+.pp-top-bar{
+    margin-top: 20px;
+}
+
+.pp-logo{
+    float: left;
+    padding: 6px 0px;
+}
+
+.pp-logo-icon{
+    float: left;
+    margin-right: 16px;
+    height:30px;
+}
+
+.pp-logo-text{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #422D4D;
+    display: inline;
+}
+
+.pp-login{
+    text-align: right;
+    height: 44px;
+}
+
+.pp-login a{
+    text-decoration: none;
+    line-height: 44px;
+    border: 2px solid #7710AF;
+    padding: 4px 18px;
+    border-radius: 4px;
+    color: #7710AF;
+    height: 44px;
+    font-size: 16px;
+}
+
+.pp-login a:hover{
+    background-color: #5a1e7a;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+
+.pp-new-account-action{
+    text-align: right;
+    line-height: 44px;
+    font-size: 16px;
+}
+
+.pp-new-account-action a{
+    color: #7710AF;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.pp-new-account-action a:hover{
+    color: #5a1e7a;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1000px){
+    .pp-top-bar{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-logo-icon{
+        
+        margin-right: 10px;
+    }
+    
+    .pp-logo-text{
+        font-size: 18px;
+    }
+}
+
+
+/* hero text */
+.pp-hero-text{
+    text-align: center;
+    max-width: 650px;
+    padding: 0px 50px;
+    margin: 50px auto;
+}
+
+.pp-hero-text-title{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    color: #422D4D;
+}
+
+.pp-hero-text-description{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #422D4D;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.pp-hero-text-button{
+    clear: both;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #7710AF;
+    color: #ffffff;
+    padding: 18px 35px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pp-hero-text-button:hover{
+    background-color: #422D4D;
+    box-shadow: 0px 3px 14px #7710af59;
+}
+
+.pp-hero-text-login{
+    display: block;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.pp-hero-text-login:hover{
+    color: #7710AF;
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-hero-text{
+        margin: 50px 40px;
+    }
+    .pp-hero-text-title{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .pp-hero-text-description{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .pp-hero-text{
+        margin: 50px 10px;
+    }
+    .pp-hero-text{
+        padding: 0px 12px;
+    }
+}
+
+
+.pp-hero-image-desktop{
+    max-width: 762px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+.pp-hero-image-mobile{
+    display: none;
+    max-width: 345px;
+}
+
+@media only screen and (max-width: 600px){
+    .pp-hero-image-desktop{
+        display: none;
+    }
+    .pp-hero-image-mobile{
+        display: block;
+        margin: 0 auto;
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pp-hero-image-mobile{
+        width: 90%;
+    }
+}
+
+
+/* Subscribe form section */
+.pp-subscribe{
+    margin-top: 25px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.pp-subscribe-text{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #422D4D;
+    text-align: center;
+    margin: auto 20px 10px 20px;
+}
+
+.pp-email-section{
+    margin: 0px auto;
+}
+
+.pp-email-subscribe{
+    margin: 0px auto;
+}
+
+
+
+.pp-subscribe-form{
+    display: flex;
+    justify-content: center;
+}
+
+.pp-email-form{
+    width: 310px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #422D4D;
+    border: 0.2px solid #422D4D;
+    padding: 15px;
+    transition-duration: 0.3s;
+}
+
+@media only screen and (max-width: 600px){
+    .pp-subscribe-text{
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 22px;
+    }
+
+    .pp-subscribe-form{
+        margin: auto 30px;
+    }
+
+    .pp-subscribe{
+        margin: auto 20px 180px;
+    }
+}
+
+.pp-email-form::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #422D4D;
+    opacity: 0.5; /* Firefox */
+}
+
+.pp-email-form:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #422D4D;
+}
+
+.pp-email-form::-ms-input-placeholder { /* Microsoft Edge */
+    color: #422D4D;
+}
+
+input:focus{
+    outline: none !important;
+    border: 0.2px solid #7710AF;
+    box-shadow: 0 0 8px #7710af2d;
+}
+
+.pp-hero-button{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #7710AF;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 10px;
+    border: none;
+    box-shadow: none;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.pp-hero-button:hover{
+    background-color: #5a1e7a;
+}
+
+@media only screen and (max-width: 600px){
+    .pp-email-form{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .pp-hero-button{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .pp-subscribe-form {
+        display: inherit;
+    }
+}
+
+
+/* Comparison section */
+.pp-comparison{
+    display: table;
+    margin: 50px auto 180px;
+    max-width: 762px;
+}
+
+.pp-compare-side{
+    padding: 0 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pp-compare-side-element{
+    display: block;
+    margin: 0 auto;
+}
+
+.pp-compare-text{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #422D4D;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+.pp-compare-side-text{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: #422D4D;
+    opacity: 0.7;
+    margin-top: 16px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .pp-compare-side{
+        padding: 0 10px;
+        max-width: 150px;
+    }
+
+    .pp-compare-side-image{
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .pp-compare-text{
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Footer section */
+.pp-footer{
+    background-color: #e6e6e6;
+    padding: 80px 20px;
+}
+
+.pp-footer-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.pp-footer-logo .pp-logo-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.pp-footer-logo .pp-logo-text{
+    font-size: 18px;
+}
+
+.pp-footer-text{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #422d4d66;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.pp-footer-twitter{
+    width: 26px;
+    margin: 40px auto 0px auto;
+    display: block;
+}
+
+.pp-back{
+    display: flex;
+    justify-content: center;
+}
+
+.pp-back-button{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #7710AF;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.pp-back-button:hover{
+    background-color: #5a1e7a;
+}
+
+
+/* login */
+.pp-login-card{
+    max-width: 360px;
+    margin: auto;
+    text-align: left;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0px 2px 8px #7710af24;
+}
+
+.pp-login-field{
+    margin-top: 20px;
+}
+
+
+.pp-login-field label, .pp-input-label{
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.pp-form-field{
+    margin-top: 4px;
+    width: 100%;
+    height: 46px;
+    border-radius: 4px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #422D4D;
+    border: 0.2px solid #422d4d5d;
+    padding: 15px;
+    transition-duration: 0.3s;
+}
+
+.pp-form-field:focus{
+    border: 0.2px solid #7710AF;
+}
+
+.pp-login-field textarea:focus{
+    outline: none !important;
+    border: 0.2px solid #7710AF;
+    box-shadow: 0 0 8px #7710af2d;
+}
+
+.pp-form-button{
+    font-size: 16px;
+    background-color: #7710AF;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: none;
+    cursor:pointer;
+    transition: 0.3s;
+}
+
+.pp-form-button:hover{
+    background-color: #5a1e7a;
+}
+
+.pp-form-text{
+    margin-top: 15px;
+    color: #422D4D;
+    font-size: 14px;
+}
+
+.pp-form-text a{
+    color: #7710AF;    
+}
+
+.pp-form-text a:hover{
+    color: #5a1e7a;
+}
+
+/* 404 */
+.pp-404-fields{
+    text-align: center;
+}
+
+
