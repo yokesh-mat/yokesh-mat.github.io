@@ -333,3 +333,17 @@ body *,
 	}
 
 }
+@media screen and (min-width:300px) and (max-width:770px) {
+	.slider{
+		display: flex;
+		text-align: center;
+		margin: 0 auto;
+		align-self: flex-start;
+		position: relative;
+		height: 30%;
+		width: 100%;
+	}
+	.controls{
+		font-size: 9px;
+	}
+}
