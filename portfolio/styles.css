@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root {
-    --color: crimson;
+    --color: rgb(0, 216, 36);
 }
 * {
     font-family: 'Nunito', sans-serif;
@@ -344,11 +344,17 @@ header .navbar ul li a:hover {
     color: var(--color);
 }
 
+#profile{
+    display: none;
+}
+.profile{
+    display: none;  
+}
 /* Contact Section Ends */
 
 /* Media Queries */
 
- @media (max-width:1200px) {
+ @media screen and (max-width:1200px) {
      html {
          font-size: 55%;
      }
@@ -360,8 +366,27 @@ header .navbar ul li a:hover {
      header {
          left: -120%;
      }
+     iframe{
+         height: auto;
+         width: 90%;
+     }
+     #profile{
+        display: block;
+        height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+    margin-bottom: 5rem !important;
+    border: 1rem solid var(--color);
+    }
+    .profile{
+        display: block;
+        width: 50%;
+        margin: auto;  
+    }
      #menu {
-         display: block;
+         display: none;
      }
      header.toggle {
          left: 0%;
@@ -395,3 +420,4 @@ header .navbar ul li a:hover {
         margin: 3rem 0;
     }
 }
+
