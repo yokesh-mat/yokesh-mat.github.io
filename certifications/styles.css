@@ -346,4 +346,7 @@ body *,
 	.controls{
 		font-size: 9px;
 	}
+	.arrow{
+		display: none;
+	}
 }
