@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+PRODID:-//Ben Fortuna//iCal4j 1.0//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+X-WR-RELCALID:1649927
+BEGIN:VEVENT
+DTSTAMP:20220622T100140Z
+ORGANIZER;CN=santhosh thomas;SENT-BY="MAILTO:expleo+email+ap8z-e21ee6b5c8@talent.icims.eu":MAILTO:expleo+email+ap8z-e21ee6b5c8@talent.icims.eu
+DTSTART:20220622T113000Z
+DTEND:20220622T114000Z
+SEQUENCE:4
+UID:iCIMS-441939-1655817518344
+SUMMARY:Interview with Yokesh Matheswaran for UI/UX Developer (13453)
+ATTENDEE;CN=santhosh thomas;RSVP=TRUE:MAILTO:santhosh.thomas@expleogroup.com
+ATTENDEE;CN=Yokesh Matheswaran;RSVP=TRUE;ROLE=REQ-PARTICIPANT:MAILTO:thisisyokesh@gmail.com
+DESCRIPTION:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nInterview with Yokesh Matheswaran for UI/UX Developer (13453)\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n[[ Required Attendees ]]\nYokesh Matheswaran <thisisyokesh@gmail.com>\n\nDear Yokesh Matheswaran\,\n \nAn interview has been scheduled for you. Please review the interview details and accept or decline the invitation.\n \nview the candidates profile here\n \n \n________________________________________________________________________________\nMicrosoft Teams meeting\nJoin on your computer or mobile app\n\nClick here to join the meeting<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjFmZTAzYWMtNjU0MS00Njc4LWE0MjQtMWU3OTZmNzM4NGI1%40thread.v2/0?context=%7b%22Tid%22%3a%223b0e7247-e0d5-44bf-8ed1-d01b18d16ca2%22%2c%22Oid%22%3a%22cd74a6b5-27e4-4e8e-8bcb-2e4028792b44%22%7d>\n\n\nLearn More<https://aka.ms/JoinTeamsMeeting>\n | \nMeeting options<https://teams.microsoft.com/meetingOptions/?organizerId=cd74a6b5-27e4-4e8e-8bcb-2e4028792b44&tenantId=3b0e7247-e0d5-44bf-8ed1-d01b18d16ca2&threadId=19_meeting_YjFmZTAzYWMtNjU0MS00Njc4LWE0MjQtMWU3OTZmNzM4NGI1@thread.v2&messageId=0&language=en-US>\n\n________________________________________________________________________________\n \n  \n \nThank you\,\nSanthosh Thomas\nsanthosh.thomas@expleogroup.com\nAll the best !
+LOCATION:
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Appointment with Yokesh Matheswaran (+91 6381240256) for UI/UX Developer (13453) scheduled by santhosh thomas.
+END:VALARM
+END:VEVENT
+END:VCALENDAR
